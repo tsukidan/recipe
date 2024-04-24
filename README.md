@@ -1,6 +1,6 @@
 # Good Eats - Mockup Website
 
-Welcome to Good Eats - your premier destination for culinary inspiration and a showcase of mockup recipes! Please note that Good Eats is a mockup website designed solely for demonstration purposes. While the website itself is a mockup, the recipes featured here are not real and are intended to inspire creativity in the kitchen.
+Welcome to Good Eats - your premier destination for culinary inspiration and a showcase of recipes! Please note that Good Eats is a mockup website designed solely for demonstration purposes. While the website itself is a mockup, the recipes featured here are not real and are intended to inspire creativity in the kitchen.
 
 ## 🍽️ What We Offer
 At Good Eats, we curate a selection of mockup recipes spanning a wide array of cuisines and flavors. From tantalizing appetizers to decadent desserts, our mockup recipes are meticulously crafted to ignite your culinary imagination.
