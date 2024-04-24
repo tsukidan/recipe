@@ -4,4 +4,9 @@
     --cyan: #7ABFBF;
     --light-cyan: rgba(122,191,191,0.5);
     --orange: #EB5428;
+
+    --font-fam: "Bebas Neue", "Montserrat";
+    --bebas-weight: 400;
+    --montserrat-reg: 400;
+    --montserrat-bold: 700;
 }
