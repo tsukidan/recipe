@@ -3,13 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Good Eats</title>
-    <meta name="author" content="Daniel Navarro">
+    <title>Good Eats - Street Tacos</title>
+    <meta name="author" content="Taco Cheesington">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="svgs.html">SVGs</a>
+    <header>
+        <div class="logo">
+            <div class="icon-container">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 3h8l-1 9h-6z" />
+                    <path d="M7 18h2v3h-2z" />
+                    <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
+                    <path d="M20 15v6h-1v-3" />
+                    <line x1="8" y1="12" x2="8" y2="18" />
+                </svg>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="images/breakfast.png" alt="Breakfast">
+                <p>Breakfast</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/brunch.png" alt="Brunch">
+                <p>Brunch</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/lunch.png" alt="Lunch">
+                <p>Lunch</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/dinner.png" alt="Dinner">
+                <p>Dinner</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/appetizers.png" alt="Appetizers">
+                <p>Appetizers</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/desserts.png" alt="Desserts">
+                <p>Desserts</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/beverages.png" alt="Beverages">
+                <p>Beverages</p>
+            </div>
+        </div>
+        <div class="sign-in">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="12" r="9" />
+                <circle cx="12" cy="10" r="3" />
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg>
+            <span class="sign-in-text">Sign In</span>
+        </div>
+    </header>
+    <main>
+        <section class="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="10" cy="10" r="7" />
+                <line x1="21" y1="21" x2="15" y2="15" />
+            </svg>
+            <input type="text" placeholder="Find a recipe">
+        </section>        
+        <section class="street-tacos">
+            <div class="actions">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                    <polyline points="7 11 12 16 17 11" />
+                    <line x1="12" y1="4" x2="12" y2="16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-share" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="6" r="3" />
+                    <circle cx="18" cy="18" r="3" />
+                    <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
+                    <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9h12v-4a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v4z" />
+                    <path d="M6 15h12v-4a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v4z" />
+                    <path d="M3 15v-6a2 2 0 0 1 2 -2h1" />
+                    <path d="M21 15v-6a2 2 0 0 0 -2 -2h-1" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right-circle" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="12" y1="8" x2="16" y2="12" />
+                    <line x1="12" y1="12" x2="16" y2="16" />
+                    <line x1="12" y1="16" x2="8" y2="12" />
+                    <line x1="8" y1="12" x2="12" y2="8" />
+                </svg>
+            </div>
+            <img src="images/street-tacos.png" alt="Street Tacos">
+            <p>Street tacos are delicious, amazing, and oh so mouthwatering! Bite into tender steak, zesty lime flavor with a hint of spice and add on tomatoes, avocado, and onions for a savory bite you are going to love!</p>
+            <div class="details">
+                <p>Details</p>
+                <p>Prep Time: 10 minutes</p>
+                <p>Cook Time: 10 minutes</p>
+                <p>Total Time: 20 minutes</p>
+                <p>Author: Taco Cheesington</p>
+                <p>Servings: 6 Tacos</p>
+            </div>
+            <div class="ingredients">
+                <p>Ingredients</p>
+                <ul>
+                    <li>Flank steak</li>
+                    <li>Soy Sauce</li>
+                    <li>Worcestershire sauce</li>
+                    <li>Lime</li>
+                    <li>Minced garlic</li>
+                    <li>Cilantro</li>
+                    <li>Chili powder</li>
+                    <li>Cumin</li>
+                    <li>Salt</li>
+                    <li>Pepper</li>
+                    <li>Corn tortillas</li>
+                </ul>
+            </div>
+            <div class="directions">
+                <p>Directions</p>
+                <ol>
+                    <li>Cut the flank steak into one inch pieces. In a medium sized bowl add the soy sauce, Worcestershire, juice from one lime, cilantro, chili powder, cumin, and salt and pepper.</li>
+                    <li>Marinate the steak and let marinate in the fridge for 1-2 hours.</li>
+                    <li>Cook the meat. Heat a medium sized skillet to medium high heat. Add the steak and marinade and cook for about 5-7 minutes or until no longer pink.</li>
+                    <li>Add toppings: Put the steak in the center of your tortilla with desired toppings.</li>
+                </ol>
+            </div>
+        </section>
+            <section class="side-dishes" style="background-color: var(--cyan);">
+                <div class="side-dish">
+                    <img src="images/mexican-rice.png" alt="Mexican Rice">
+                    <p>Mexican Rice</p>
+                    <p>Traditional recipe with a twist.</p>
+                    <p>Rating: 4 of 5 Stars</p>
+                </div>
+                <div class="side-dish">
+                    <img src="images/salsa.png" alt="Salsa">
+                    <p>Salsa</p>
+                    <p>Just the right amount of spice.</p>
+                    <p>Rating: 5 of 5 Stars</p>
+                </div>
+                <div class="side-dish">
+                    <img src="images/guacamole.png" alt="Guacamole">
+                    <p>Guacamole</p>
+                    <p>Fresh and healthy.</p>
+                    <p>Rating: 4 of 5 Stars</p>
+                </div>
+                <div class="side-dish">
+                    <img src="images/tortillas.png" alt="Tortillas">
+                    <p>Tortillas</p>
+                    <p>Easy to make and so good.</p>
+                    <p>Rating: 4 of 5 Stars</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <img src="images/Taco-cheesington.png" alt="Taco Cheesington">
+            <p>Copyright 2022 Taco Cheesington</p>
+        </div>
+        <div class="footer-right">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="images/tiktok.png" alt="TikTok"></a>
+        </div>
+    </footer>
 </body>
 </html>

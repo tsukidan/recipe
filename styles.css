@@ -1,12 +1,161 @@
-:root{
-    --black: #0d0d0d;
-    --grey: #f2f2f2;
-    --cyan: #7ABFBF;
-    --light-cyan: rgba(122,191,191,0.5);
-    --orange: #EB5428;
 
-    --font-fam: "Bebas Neue", "Montserrat";
-    --bebas-weight: 400;
-    --montserrat-reg: 400;
-    --montserrat-bold: 700;
+:root{
+    --orange: #EB5428;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(122, 191, 191, .5);
+}
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    width: 115px;
+    height: 115px;
+    background-color: #EB5428;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 0px 0px -20px;
+    padding: 20px;
+  }
+
+
+
+.logo svg {
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu-item {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: var(--orange);
+    text-transform: uppercase;
+  }
+
+.menu-item img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in svg {
+    margin-right: 5px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar svg {
+    background-color: #EB5428;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #EB5428;
+    outline: none;
+}
+
+.street-tacos {
+    text-align: center;
+    margin-top: 50px;
+}
+.street-tacos img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.street-tacos p {
+    margin-top: 20px;
+}
+
+.details,
+.ingredients,
+.directions {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients ul li {
+    margin-bottom: 5px;
+}
+
+.directions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+.side-dishes {
+    text-align: center;
+    padding: 50px 0;
+    color: var(--black);
+}
+
+.side-dishes .side-dish {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    background-color: var(--light-cyan);
+}
+
+.side-dishes .side-dish img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: var(--orange);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-left img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-right a {
+    margin-left: 10px;
 }
